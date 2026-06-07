@@ -11,7 +11,9 @@ function AboutUs() {
             Our location is fully accessible by public transit, and there is lots of street parking available nearby. <br />
             Ready to get out there? Give us a call for any questions, or come see us in-store and you'll be rolling in no time!<br/>
             <br />
-            Open 9 AM to 6 PM every day!</p>
+            Open 9 AM to 6 PM every day!<br />
+            <br />
+            Website designed by Eli Foley, 2026.</p>
         </div>
     </div>;
 }
