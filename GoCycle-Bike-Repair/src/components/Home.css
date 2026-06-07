@@ -1,0 +1,118 @@
+
+.home-header {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  color: var(--text);
+  padding-bottom: 50px;
+}
+
+.bike-services-container {
+  display: flex;
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Vertically aligns items in the middle */
+  padding: 20px;
+  margin-bottom: 20px; /* Space below this container */
+}
+
+.bike-services-container .left-side {
+  flex: 1; /* Allows the left side to grow and shrink */
+  margin-right: 10px; /* Space between the image and text content */
+  padding-left: 10vh; /* Moved spacing here to allow image corners to round correctly */
+}
+
+.bike-services-container .right-side {
+  flex: 2; /* Gives more space to the text content */
+  text-align: left; /* Aligns text to the left */
+}
+
+.bike-services-container .right-side h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  color: var(--text);
+}
+
+.bike-services-container .right-side p {
+    font-family: "Source Sans 3", sans-serif;
+  font-size: 2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.bike-services-container .right-side button {
+    font-family: "Nunito", sans-serif;
+  padding: 12px 25px;
+  font-size: 3em;
+  background-color: #F4C5A7; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bike-services-container .right-side button:hover {
+  background-color: var(--orange); 
+}
+
+.bike-supplies-container {
+  display: flex;
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Vertically aligns items in the middle */
+  padding: 20px;
+  margin-bottom: 20px; /* Space below this container */
+}
+
+.bike-supplies-container .left-side {
+  flex: 1; /* Allows the left side to grow and shrink */
+  margin-right: 10px; /* Space between the image and text content */
+  padding-left: 10vh; /* Moved spacing here to allow image corners to round correctly */
+}
+
+.bike-supplies-container .right-side {
+  flex: 2; /* Gives more space to the text content */
+  text-align: left; /* Aligns text to the left */
+}
+
+.bike-supplies-container .right-side h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  color: var(--text);
+}
+
+.bike-supplies-container .right-side p {
+    font-family: "Source Sans 3", sans-serif;
+  font-size: 2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.bike-supplies-container .right-side button {
+    font-family: "Nunito", sans-serif;
+  padding: 12px 25px;
+  font-size: 3em;
+  background-color: #F4C5A7; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bike-supplies-container .right-side button:hover {
+  background-color: var(--orange); 
+}
+
+.content-image {
+  width: 50vh; 
+  max-width: 100%; /* Allows the image to shrink if the container gets too narrow */
+  height: auto; 
+  aspect-ratio: 5 / 4; /* Ensures both images stay the same size/shape while resizing */
+  object-fit: cover; 
+  display: block; 
+  border-radius: 4px;
+}
