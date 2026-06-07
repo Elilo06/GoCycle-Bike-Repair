@@ -16,11 +16,11 @@
 
 .gear-one-container, .gear-two-container, .gear-three-container{
   display: flex;
-  flex-direction: column; /* Stacks items vertically */
-  justify-content: center; /* Centers items horizontally/vertically depending on direction */
-  align-items: center; /* Vertically aligns items in the middle */
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
   padding: 20px;
-  margin-bottom: 20px; /* Space below this container */
+  margin-bottom: 20px; 
 }
 
 .booking-selection {

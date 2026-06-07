@@ -18,7 +18,7 @@
   width: 100%;
   height: 10px; 
   background-color: var(--orange);
-  top: 30vh; /* Position it right below the blue background */
+  top: 30vh; 
 }
 
 .header-top {
@@ -50,11 +50,11 @@
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 20px; /* Space between the icon and the text */
+  gap: 20px; 
 }
 
 .contact-icon {
-  width: 60px; /* Adjust width to match your large 70px font */
+  width: 60px; 
   height: auto;
 }
 
@@ -77,9 +77,9 @@
 
 .tabs-nav {
   position: absolute;
-  top: 30vh; /* Align with the bottom of the background */
-  left: 50px; /* Padding from the left side */
-  transform: translateY(-100%); /* Pulls the tabs inside the rectangle */
+  top: 30vh; 
+  left: 50px;
+  transform: translateY(-100%); 
   display: flex;
   gap: 20px;
 }
